@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Login form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon"
+		href="../assets/images/favicon.ico" />
+	    <link rel="stylesheet" href="../assets/css/aos.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+</head>
+
+<body>
+
+	<!-- Start Navbar -->
+
+
+	<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light w-100">
+		<a class="navbar-brand" href="#"><img height="auto" width="100" title="Uzma Sattar Website"
+			src="../assets/images/logo.png" alt="Uzma Sattar logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto ">
+				<li class="nav-item mr-3">
+					<a class="nav-link " href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link " href="../shop/shop.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Shop</a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link " href="../about/about.html"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;About</a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link " href="../contact/contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Contact</a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link " href="../signup/signup.html"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Signup</a>
+				</li>
+
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+				<button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+			</form>
+		</div>
+	</nav>
+	<br>
+
+	<!-- Navbar End -->
+
+
+	<div class="LoginForm col-lg-offset-4 col-sm-offset-0 col-md-offset-2 col-offset-0" data-aos="flip-left"
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
+		<div class="container-contact100" data-aos="flip-left"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="2000">
+			<div class="wrap-contact100">
+				<form class="contact100-form validate-form" action="../index.html" method="POST">
+					<span class="contact100-form-title text-info">
+						LogIn Form
+					</span>
+
+					<div class="wrap-input100 validate-input" 
+						data-validate="Valid email is required: ex@abc.xyz">
+						<label class="label-input100" for="email">Email Address</label>
+						<input id="email" class="input100"  required type="email" name="email" placeholder="Enter your email...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" 
+						data-validate="Password contain letter number and special symbol">
+						<label class="label-input100" for="email">Password</label>
+						<input id="password" class="input100" required type="password" placeholder="Enter your Password...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn">
+							LogIn
+						</button>
+					</div>
+
+					<div class="contact100-form-social flex-c-m">
+						<a href="https://facebook.com" class="contact100-form-social-item flex-c-m bg1 m-r-5">
+							<i class="fa fa-facebook-f" aria-hidden="true"></i>
+						</a>
+
+						<a href="https://twitter.com" class="contact100-form-social-item flex-c-m bg2 m-r-5">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+
+						<a href="https://youtube.com" class="contact100-form-social-item flex-c-m bg3">
+							<i class="fa fa-youtube-play" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/aos.js"></script>
+<script>
+	   AOS.init({
+        duration: 1200,
+         });
+</script>
+</body>
+
+</html>
