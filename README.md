@@ -1,5 +1,5 @@
 # uzmasattar
 
-live preview deploy on github
+Live Preview
 
-https://hamzayousuf121.github.io/uzmasatta-website/
+https://hamzayousuf121.github.io/uzmasattar-website/
